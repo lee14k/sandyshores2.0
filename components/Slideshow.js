@@ -17,10 +17,11 @@ const Slideshow = ({images, imageSize}) => {
       const imageStyle = {
         width: imageSize,
         height: 'auto',
+        
       };
     
       return (
-        <div>
+        <div className='slideshowcontainer'>
           <button onClick={prevSlide}>Previous</button>
           <img src={images[currentSlide]} style={imageStyle} />
           <button onClick={nextSlide}>Next</button>
