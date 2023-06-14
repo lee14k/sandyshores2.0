@@ -26,10 +26,3 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.cottage, .gridpic {
-  height:300px;
-  width:300px;
-}
-.grid-container {
-  display:grid;
-}
