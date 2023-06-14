@@ -52,7 +52,7 @@ function Navbar() {
           </li>
           <li>Contact Us</li>
           <li onClick={handleDropdownClick} className={`dropdown-item ${dropdown ? 'open' : ''}`}>
-            Dropdown
+            Cottages
           </li>
           {dropdown && (
             <ul>
@@ -63,8 +63,9 @@ function Navbar() {
               <li>Dropdown item</li>
             </ul>
           )}
-          <li>Placeholder 1</li>
-          <li>Placeholder 2</li>
+          <li>Policies</li>
+          <li>Reserve your Stay</li>
+          <li>Local Attractions</li>
         </ul>
       )}
     </div>

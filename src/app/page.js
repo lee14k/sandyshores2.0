@@ -15,7 +15,7 @@ export default function Home() {
    
    <h1>Located just minutes outside of downtown Escanaba</h1>
       
-     <Slideshow images={images}/>
+     <Slideshow images={images} imageSize='500px'/>
 
      <h2>Perfect private beach resort for a relaxing getaway</h2>
     </div>
