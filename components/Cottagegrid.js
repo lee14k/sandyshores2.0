@@ -1,5 +1,6 @@
 import Cottages from "./Cottages"
 import data from "../../sandyshores2.0/cottagedata.json"
+import './Cottages.css';
 
 const Grid = () => {
     return (

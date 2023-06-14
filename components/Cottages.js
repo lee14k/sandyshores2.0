@@ -1,4 +1,4 @@
-import './cottages.css';
+import './Cottages.css';
 
 function Cottage({imageUrl, cottageName, rate}) {
   return (
