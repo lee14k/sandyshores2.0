@@ -1,18 +1,16 @@
 'use client'
 import './Slideshow.css';
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
-const Slideshow = ({images, imageSize}) => {
+const Slideshow = ({images, imageSize, autoplayDelay}) => {
     const [currentSlide, setCurrentSlide]= useState(0)
 
-    const nextSlide = ()=> {
-        setCurrentSlide((prevSlide)=>(prevSlide+1)%images.length)
+  useEffect(()=> {
+    const interval = setInterval(()=> {
+      setCurrentSlide ((prevSlide)=> (prevSlide+1) % images.length)}, autoplayDelay);
 
-    }
-
-    const prevSlide = () => {
-        setCurrentSlide((prevSlide) => (prevSlide - 1 + images.length) % images.length);
-      };
+      return ()=> clearInterval(interval);
+    }, [images.length,autoplayDelay])
     
       const imageStyle = {
         width: imageSize,
@@ -22,9 +20,9 @@ const Slideshow = ({images, imageSize}) => {
     
       return (
         <div className='slideshowcontainer'>
-          <button onClick={prevSlide}>Previous</button>
+     
           <img src={images[currentSlide]} style={imageStyle} />
-          <button onClick={nextSlide}>Next</button>
+       
         </div>
       );
     };

@@ -1,9 +1,24 @@
-.cottage, .gridpic {
-    height:300px;
-    width:300px;
-  }
+
 
   .grid-container {
     display:grid;
     grid-template-columns: repeat(3,1fr);
+    background-image: url('/stacked-waves-haikei4.svg');
+    background-size: cover;
+    background-repeat: repeat-x;
+  }
+
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* Display as a single column */
+      justify-items: center;
+    }
+  }
+
+  .Cottage {
+    background-color: white;
+    height:400px;
+    border:solid rgb(191, 255, 255);
+    filter: drop-shadow(10px 6px 6px #add8e6);
+
   }

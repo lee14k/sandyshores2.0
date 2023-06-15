@@ -30,3 +30,24 @@
     color:white;
     font-size:35px;
 }
+
+@media (max-width: 900px) {
+    .imagecontainer {
+      justify-content: center; /* Center contents horizontally */
+      align-items: center; /* Center contents vertically */
+    }
+    
+    .booking {
+      font-size: 30px; /* Reduce font size */
+    }
+    
+    .sandy {
+      padding-top: 200px; /* Reduce padding */
+      font-size: 50px; /* Reduce font size */
+    }
+    
+    .location {
+      font-size: 25px; /* Reduce font size */
+    }
+  }
+  

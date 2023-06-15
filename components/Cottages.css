@@ -1,9 +1,15 @@
-.cottage, .gridpic {
-    height:300px;
-    width:300px;
+.gridpic {
+    height:250px;
+    width:350px;
   }
 
   .grid-container {
     display:grid;
     grid-template-columns: repeat(3,1fr);
+    gap:20px;
+  }
+
+  .cottage {
+    height: 400px;
+    background-color: white;
   }

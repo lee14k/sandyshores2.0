@@ -2,6 +2,7 @@
 import './Navbar.css';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Navbar() {
   const [dropdown, setDropdown] = useState(false);
@@ -45,6 +46,13 @@ function Navbar() {
       {(showMobile || !isMobile || dropdown) && (
         <ul className={`nav ${dropdown ? 'open' : ''}`}>
           <li>
+            <Image 
+            src='/flogo.png'
+            height={30}
+            width={30}
+            />
+          </li>
+          <li>
             <Link href="/">Home</Link>
           </li>
           <li>
@@ -56,11 +64,20 @@ function Navbar() {
           </li>
           {dropdown && (
             <ul>
-              <li>Dropdown item</li>
-              <li>Dropdown item</li>
-              <li>Dropdown item</li>
-              <li>Dropdown item</li>
-              <li>Dropdown item</li>
+              <li>The Lodge</li>
+              <li>Sunrise Suite</li>
+              <li>Cottage One</li>
+              <li>Cottage Two</li>
+              <li>Cottage Three</li>
+              <li>Cottage Four</li>
+              <li>Cottage Five</li>
+              <li>Cottage Six</li>
+              <li>Cottage Seven</li>
+              <li>Motel Eight</li>
+              <li>Motel Nine</li>
+              <li>Motel Ten</li>
+              <li>Fish Shack</li>
+
             </ul>
           )}
           <li>Policies</li>

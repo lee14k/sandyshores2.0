@@ -1,6 +1,6 @@
 import Cottages from "./Cottages"
 import data from "./cottagedata.json"
-import './Cottages.css';
+import './Cottagegrid.css';
 
 const Grid = () => {
     return (
@@ -12,7 +12,8 @@ const Grid = () => {
                     key={index}
                     cottageName={item.cottageName}
                     rate={item.rate}
-                    imageUrl={item.imageUrl}/>
+                    imageUrl={item.imageUrl}
+                    guests={item.guests}/>
                 ))}
             </div>
         </div>
