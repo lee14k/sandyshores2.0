@@ -8,12 +8,7 @@
     background-repeat: repeat-x;
   }
 
-  @media (max-width: 900px) {
-    .grid-container {
-      grid-template-columns: 1fr; /* Display as a single column */
-      justify-items: center;
-    }
-  }
+
 
   .Cottage {
     background-color: white;
@@ -21,4 +16,11 @@
     border:solid rgb(191, 255, 255);
     filter: drop-shadow(10px 6px 6px #add8e6);
 
+  }
+
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* Display as a single column */
+      justify-items: center;
+    }
   }
