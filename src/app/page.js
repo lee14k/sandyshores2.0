@@ -2,6 +2,7 @@ import Header from '../../components/Header'
 import Navbar from '../../components/Navbar'
 import Slideshow from '../../components/Slideshow'
 import Cottagegrid from '../../components/Cottagegrid'
+import Footer from '../../components/Footer'
 import 'src/app/globals.css'
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
      <h2>Perfect private beach resort for a relaxing getaway</h2>
      <h3>No lifeguard on duty, swim at your own risk</h3>
 <Cottagegrid/>
+<Footer/>
     </div>
   )
 }

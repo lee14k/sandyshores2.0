@@ -14,8 +14,7 @@ const Slideshow = ({images, imageSize, autoplayDelay}) => {
     
       const imageStyle = {
         width: imageSize,
-        height: 'auto',
-        
+        height: 'auto',        
       };
     
       return (
