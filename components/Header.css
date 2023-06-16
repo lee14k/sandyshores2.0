@@ -8,6 +8,7 @@
     align-items:center;
     flex-direction: column;
     background-size:2900px 800px;
+    margin-top:-10%;
     
 }
 .booking {
@@ -39,9 +40,7 @@
 
 @media (max-width: 900px) {
     .imagecontainer {
-      justify-content: center; /* Center contents horizontally */
-      align-items: center; /* Center contents vertically */
-    }
+margin-top:-100px;    }
     
     .booking {
       font-size: 30px; /* Reduce font size */

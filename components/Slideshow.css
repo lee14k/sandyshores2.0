@@ -1,6 +1,12 @@
 .slideshowcontainer {
     display:flex;
-    width:500px;
-    height:500px;
+    justify-content: center;
+    align-items: center;
    
 }
+
+@media (max-width: 900px) {
+    .slideshowcontainer {
+        width:100%;
+    }
+  }

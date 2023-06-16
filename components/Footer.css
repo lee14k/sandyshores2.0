@@ -1,3 +1,16 @@
-.footer {
+.innerwrapper {
     display: flex;
+    gap:50px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right:50px;
+    background:#82f6ba;
+    background: linear-gradient(180deg, rgba(130,246,186,1) 0%, rgba(255,255,255,1) 100%);}
+
+ul {
+    list-style-type: none;
+}
+
+#googlemaps {
+    width:100%;
 }

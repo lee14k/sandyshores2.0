@@ -1,17 +1,29 @@
 [
 
-    {"imageUrl":"/lodgeexternal.jpg","cottageName":"The Lodge", "rate":"$1,300", "guests":"6" },
-    {"imageUrl":"/sunriseexterior.jpg","cottageName":"Sunrise Suite", "rate":"$1,300","guests":"5" },
-    {"imageUrl":"/cottageoneexterior.jpg","cottageName":"Cottage One", "rate":"$1,300","guests":"4" },
-    {"imageUrl":"cottages/public/Screenshot 2023-06-06 at 5.01.56 PM.png","cottageName":"Cottage Two", "rate":"$1,300","guests":"4" },
-    {"imageUrl":"cottages/public/Screenhot 2023-06-06 at 5.01.56 PM.png","cottageName":"Cottage Three", "rate":"$1,300","guests":"4" },
-    {"imageUrl":"cottages/public/Screenshot 2023-06-06 at 5.01.56 PM.png","cottageName":"Cottage Four", "rate":"$1,300","guests":"2" },
-    {"imageUrl":"cottages/public/Screenshot 2023-06-06 at 5.01.56 PM.png","cottageName":"Cottage Five", "rate":"$1,300","guests":"4" },
-    {"imageUrl":"cottages/public/Screenshot 2023-06-06 at 5.01.56 PM.png","cottageName":"Cottage Six", "rate":"$1,300","guests":"6" },
-    {"imageUrl":"cottages/public/Screenshot 2023-06-06 at 5.01.56 PM.png","cottageName":"Cottage Seven", "rate":"$1,300","guests":"6" },
-    {"imageUrl":"cottages/public/Screenshot 2023-06-06 at 5.01.56 PM.png","cottageName":"Motel Eight", "rate":"$1,300","guests":"4" },
-    {"imageUrl":"cottages/public/Screenshot 2023-06-06 at 5.01.56 PM.png","cottageName":"Motel Nine", "rate":"$1,300","guests":"4" },
-    {"imageUrl":"cottages/public/Screenshot 2023-06-06 at 5.01.56 PM.png","cottageName":"Motel Ten", "rate":"$1,300","guests":"4" },
-    {"imageUrl":"cottages/public/Screenshot 2023-06-06 at 5.01.56 PM.png","cottageName":"Fish Shack", "rate":"$1,300","guests":"6" }
+    {"imageUrl":"/lodgeexternal.jpg","cottageName":"The Lodge", "rate":"$1,300", "guests":"6" ,"blurb":"The Lodge is a fully furnished two-bedroom home and is perfect for large families. It has a full kitchen with refrigerator, freezer, electric range, oven, microwave, coffee maker and toaster. The spacious living room has a sofa sleeper. The sunroom has a queen sleeper sofa and two large picture windows that look out over the beach. Both bedrooms have queen size beds. Lodge guests are just steps from the lakeshore. This is beach life at its best!"},
+
+    {"imageUrl":"/sunriseexterior.jpg","cottageName":"Sunrise Suite", "rate":"$1,150","guests":"5", "blurb":"The Sunrise Suite is a fully furnished two-bedroom home with a full kitchen including refrigerator, freezer, gas range and oven, microwave, coffee maker and toaster. The living room has newer carpet and a new futon. The master bedroom has a queen size bed. Enjoy the stunning view of the beach and lake from the master bedroom window. The second bedroom has two twin beds and is at the opposite end of the mobile home."},
+
+    {"imageUrl":"/cottageoneexterior.jpg","cottageName":"Cottage One", "rate":"$900","guests":"4","blurb":"This cottage has two bedrooms each with a full-sized bed, living room, kitchen with refrigerator, freezer, gas range and oven, coffee maker, microwave and toaster. A large picture window in the living room provides an unbeatable view of the beach and lake. Enjoy the lake breezes, as well." },
+
+    {"imageUrl":"/cottage-2-1.jpg","cottageName":"Cottage Two", "rate":"$900","guests":"4","blurb":"This cottage has two bedrooms each with a full-sized bed, living room, kitchen with refrigerator, freezer, gas range and oven, coffee maker, microwave and toaster. A large picture window in the living room provides an unbeatable view of the beach and lake. Enjoy the lake breezes, as well." },
+
+    {"imageUrl":"/cottage3external.jpg","cottageName":"Cottage Three", "rate":"$975","guests":"4","blurb":"This cottage has two bedrooms– one with a queen and one with a full-sized bed, living room, kitchen with refrigerator, freezer, gas range and oven, coffee maker, microwave and toaster. The living room is paneled and has a large picture window." },
+
+    {"imageUrl":"/cottage4.jpg","cottageName":"Cottage Four", "rate":"$825","guests":"2","blurb":"This is a cozy one-bedroom cottage sometimes affectionately referred to as the “Honeymoon Suite.” It has a kitchen with gas range and oven, refrigerator, freezer, coffee maker microwave and toaster. The bedroom has a queen size bed and the living room has a sleeper sofa." },
+
+    {"imageUrl":"/cottage5external.jpg","cottageName":"Cottage Five", "rate":"$975","guests":"4","blurb":"TThis cottage has two bedrooms – one with a queen bed and one with a full-sized bed, living room with warm, wood paneling, kitchen with refrigerator, freezer, gas range and oven, microwave, coffee maker and toaster. This cottage is in a shadier section of the property." },
+
+    {"imageUrl":"/cottage6external.jpg","cottageName":"Cottage Six", "rate":"$1,050","guests":"6","blurb":"This cottage is one of our larger cottages. It has two bedrooms with a queen and twin in one and a full and a twin in the other, a living room with warm, knotty pine walls, kitchen with refrigerator, freezer, gas range and oven, coffee maker microwave and toaster. This cottage is in a shadier section of the property." },
+
+    {"imageUrl":"/cottage7external.jpg","cottageName":"Cottage Seven", "rate":"$1,100","guests":"6","blurb":"This cottage is one of our larger cottages. It has two bedrooms with a queen and twin in each, a living room with light, wood paneling, kitchen with refrigerator, freezer, gas range and oven, microwave, coffee maker and toaster. This cottage is in a shadier section of the property." },
+
+    {"imageUrl":"motel8external.jpg","cottageName":"Motel Eight", "rate":"$700","guests":"4","blurb":"Each unit has a combined sleeping/sitting area with a flat-screen T.V., small refrigerator and coffee maker, microwave and bedroom with two beds. Motel 8 and 10 have two double beds. Motel 9 is slightly larger and has a queen and a double bed. Each unit has a bathroom with full tub and shower." },
+
+    {"imageUrl":"motel9external.jpg","cottageName":"Motel Nine", "rate":"$700","guests":"4","blurb":"Each unit has a combined sleeping/sitting area with a flat-screen T.V., small refrigerator and coffee maker, microwave and bedroom with two beds. Motel 8 and 10 have two double beds. Motel 9 is slightly larger and has a queen and a double bed. Each unit has a bathroom with full tub and shower." },
+
+    {"imageUrl":"motel10external.jpg","cottageName":"Motel Ten", "rate":"$700","guests":"4","blurb":"Each unit has a combined sleeping/sitting area with a flat-screen T.V., small refrigerator and coffee maker, microwave and bedroom with two beds. Motel 8 and 10 have two double beds. Motel 9 is slightly larger and has a queen and a double bed. Each unit has a bathroom with full tub and shower. " },
+
+    {"imageUrl":"fishshackexternal.png","cottageName":"Fish Shack", "rate":"$1,300","guests":"6","blurb":"Beautiful cottage across the road from Sandy Shores Resort. There are two bedrooms, a large living room and kitchen.  There is a private yard with fire pit and picnic table.  Access to the beach at Sandy Shores." }
     
 ]

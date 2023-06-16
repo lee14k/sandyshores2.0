@@ -6,10 +6,13 @@
     background-image: url('/stacked-waves-haikei4.svg');
     background-size: cover;
     background-repeat: repeat-x;
+    padding-bottom:200px;
   }
 
 
-
+.gridpic {
+  object-fit: cover;
+}
   .Cottage {
     background-color: white;
     height:400px;
