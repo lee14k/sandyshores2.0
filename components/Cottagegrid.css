@@ -21,16 +21,18 @@
   }
 
   
-  @media (max-width: 900px) {
-    .grid-container {
-      grid-template-columns: 1fr; /* Display as a single column */
-      justify-items: center;
-    }
-  }
+
 
   .headline {
     padding:50px;
     margin:0px !important;
     background-position: top;
     background-position-y: top;
+  }
+
+  @media (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(1,1fr); /* Display as a single column */
+      justify-items: center;
+    }
   }

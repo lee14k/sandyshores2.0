@@ -1,7 +1,9 @@
 'use client'
 import CottagePage from '../../../components/Cottagepage'
 import Gallery from '../../../components/Gallery'
-import CottageBanner from '../../../components/Cottagebanner'const images = [
+import CottageBanner from '../../../components/Cottagebanner'
+
+const images = [
     {src:'/the-lodge-1.jpg'},
     {src:'/the-lodge-2.jpg'},
     {src:'/the-lodge-3.jpg'},
@@ -16,6 +18,7 @@ return (
     <div>
          <CottageBanner imageSrc="/sunrisexterior.jpg" />
         <CottagePage cottageName="Sunrise Suite" />
+        <Gallery/>
     </div>
 )
 }

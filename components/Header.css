@@ -39,8 +39,6 @@
 }
 
 @media (max-width: 900px) {
-    .imagecontainer {
-margin-top:-100px;    }
     
     .booking {
       font-size: 30px; /* Reduce font size */
