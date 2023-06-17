@@ -1,5 +1,6 @@
 import React from 'react';
 import data from './cottagedata.json';
+import './cottagepage.css'
 
 const Cottage = (props) => {
   const { cottageName } = props;
@@ -11,18 +12,32 @@ const Cottage = (props) => {
     return <div>Cottage not found</div>;
   }
 
-  const { rate, blurb, guests, bedrooms, beds } = cottage;
+  const { rate, blurb, guests, bedrooms, bedinfo, bathrooms } = cottage;
 
   return (
-    <div>
+    <div className='cottageheadcontain'>
         
-      <h2>{cottageName}</h2>
+      <h2 className='cottage-name'>{cottageName}</h2>
+      
       <p>{blurb}</p>
-      <p>Rate: {rate}</p>
+      <div className='topcontainer'>
+      <ul className='top'>
+      <li className='item'>
+      <p>Rate: {rate}</p></li>
 
-      <p>Guests: {guests}</p>
-      <p>Bedrooms: {bedrooms}</p>
-      <p>Beds: {beds}</p>
+      <li className='item'>
+      <p>Guests: {guests}</p></li>
+
+      <li className='item'>
+      <p>Bedrooms: {bedrooms}
+        <span className="bedinfo">{bedinfo}</span></p>   </li>
+
+    
+      <li className='item'>
+      <p>Bathrooms: {bathrooms}</p>
+      </li>
+      </ul>
+      </div>
     </div>
   );
 };

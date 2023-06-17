@@ -64,20 +64,45 @@ function Navbar() {
           </li>
           {dropdown && (
             <ul>
-              <li>The Lodge</li>
-              <li>Sunrise Suite</li>
-              <li>Cottage One</li>
-              <li>Cottage Two</li>
-              <li>Cottage Three</li>
-              <li>Cottage Four</li>
-              <li>Cottage Five</li>
-              <li>Cottage Six</li>
-              <li>Cottage Seven</li>
-              <li>Motel Eight</li>
-              <li>Motel Nine</li>
-              <li>Motel Ten</li>
-              <li>Fish Shack</li>
-
+              <li>
+                <Link href="/thelodge">The Lodge</Link>
+              </li>
+              <li>
+                <Link href="/sunrisesuite">Sunrise Suite</Link>
+              </li>
+              <li>
+                <Link href="/cottageone">Cottage One</Link>
+              </li>
+              <li>
+                <Link href="/cottagetwo">Cottage Two</Link>
+              </li>
+              <li>
+                <Link href="/cottagethree">Cottage Three</Link>
+              </li>
+              <li>
+                <Link href="/cottagefour">Cottage Four</Link>
+              </li>
+              <li>
+                <Link href="/cottagefive">Cottage Five</Link>
+              </li>
+              <li>
+                <Link href="/cottagesix">Cottage Six</Link>
+              </li>
+              <li>
+                <Link href="/cottageseven">Cottage Seven</Link>
+              </li>
+              <li>
+                <Link href="/moteleight">Motel Eight</Link>
+              </li>
+              <li>
+                <Link href="/motelnine">Motel Nine</Link>
+              </li>
+              <li>
+                <Link href="/motelten">Motel Ten</Link>
+              </li>
+              <li>
+                <Link href="/fishshack">Fish Shack</Link>
+              </li>
             </ul>
           )}
           <li>Policies</li>

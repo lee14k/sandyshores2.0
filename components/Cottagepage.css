@@ -1,0 +1,56 @@
+.cottageheadcontain {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.topcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .cottage-name {
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .top {
+    list-style: none;
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item {
+    box-shadow: 2px 5px 5px 5px #add8e6;
+    padding: 50px;
+    background-image: url('/wavetexture3.png');
+  }
+  
+  .bedinfo {
+    font-size: 16px;
+  }
+
+  
+  @media screen and (max-width: 900px) {
+    .cottageheadcontain {
+      grid-template-columns: 1fr;
+    }
+  
+    .topcontainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      gap: 50px;
+    }
+  
+    .item {
+      align-items: center;
+      align-content: center;
+    }
+  }
+  
