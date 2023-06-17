@@ -7,7 +7,9 @@ import './Cottagegrid.css';
 const Grid = () => {
   return (
     <div className="wholegrid">
-      <h1>Our Cottages</h1>
+        <div >
+      <h1 className='headline'>Our Cottages</h1>
+      </div>
       <div className="grid-container">
         {data.map((item, index) => {
           const cottageSlug = item.cottageName.toLowerCase().replace(/\s+/g, '');

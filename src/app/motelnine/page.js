@@ -1,9 +1,11 @@
-function cottageFive () {
+import CottagePage from '../../../components/Cottagepage'
+
+function motelNine () {
 return (
     <div>
-        <h1>Cottage Five</h1>
+        <CottagePage cottageName="Motel Nine" />
     </div>
 )
 }
 
-export default cottageFive
+export default motelNine

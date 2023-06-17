@@ -1,14 +1,16 @@
 .imagecontainer {
     display:flex;
     width:100%;
-    height:800px;
-    background-image: url('../public/ssheader.png');
+    height:750px;
+    background-image:url("/header.jpg");
     background-position:center;
     justify-content: center;
     align-items:center;
     flex-direction: column;
     background-size:2900px 800px;
     margin-top:-10%;
+    padding-bottom:10px;
+    position:relative;
     
 }
 .booking {
@@ -56,3 +58,23 @@ margin-top:-100px;    }
     }
   }
   
+  .custom-shape-divider-bottom-1686953254 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1686953254 svg {
+    position: relative;
+    display: block;
+    width: calc(129% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1686953254 .shape-fill {
+    fill: #FFFFFF;
+}

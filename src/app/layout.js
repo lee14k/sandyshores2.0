@@ -1,9 +1,11 @@
 import {Work_Sans} from 'next/font/google'
+import { Advent_Pro } from 'next/font/google'
 
 const work = Work_Sans ({
   subsets: ['latin'],
   display:'swap'
 })
+
 
 export const metadata = {
   title: 'Next.js',

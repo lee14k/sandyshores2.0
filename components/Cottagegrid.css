@@ -3,7 +3,6 @@
   .grid-container {
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    background-image: url('/stacked-waves-haikei4.svg');
     background-size: cover;
     background-repeat: repeat-x;
     padding-bottom:200px;
@@ -21,9 +20,17 @@
 
   }
 
+  
   @media (max-width: 900px) {
     .grid-container {
       grid-template-columns: 1fr; /* Display as a single column */
       justify-items: center;
     }
+  }
+
+  .headline {
+    padding:50px;
+    margin:0px !important;
+    background-position: top;
+    background-position-y: top;
   }

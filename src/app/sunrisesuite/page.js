@@ -1,9 +1,11 @@
-function cottageFive () {
+import CottagePage from '../../../components/Cottagepage'
+
+function sunriseSuite () {
 return (
     <div>
-        <h1>Cottage Five</h1>
+        <CottagePage cottageName="Sunrise Suite" />
     </div>
 )
 }
 
-export default cottageFive
+export default sunriseSuite
